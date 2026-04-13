@@ -1,0 +1,10 @@
+ltm2985_uart_node:
+  ros__parameters:
+    port: /dev/ttyUSB0
+    baudrate: 230400
+    source_name: ltm2985
+    raw_topic: ltm2985/raw_json
+    measurement_topic: ltm2985/measurement
+    frame_separator: "\n"
+    poll_period_sec: 0.02
+    reconnect_period_sec: 2.0
