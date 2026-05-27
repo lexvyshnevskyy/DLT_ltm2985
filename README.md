@@ -7,7 +7,7 @@ This workspace contains two ROS 2 packages:
   - `ltm2985/raw_json` (`std_msgs/msg/String`)
   - `ltm2985/measurement` (`ltm2985_msgs/msg/Measurement`)
 
-The node is based on the Arduino code in `untitled.zip`, which prints frames like:
+The node is based on the Arduino LTM firmware. A **NodeMCU test simulator** (fixed 300 K) lives in [`../../hardware/ltm_nodemcu_simulator/`](../../hardware/ltm_nodemcu_simulator/). Real firmware prints frames like:
 
 ```json
 {"channel":1,"type":"temperature_K","value":298.45,"raw_code":12345,"sensor_value":0.12,"fault":1,"valid":true}
