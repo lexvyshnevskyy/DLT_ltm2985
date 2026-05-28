@@ -18,7 +18,6 @@ setup(
     maintainer_email='user@example.com',
     description='ROS 2 UART reader for Arduino LTM2985 JSON frames',
     license='MIT',
-    tests_require=['pytest'],
     entry_points={
         'console_scripts': [
             'ltm2985_uart_node = ltm2985_uart.node:main',
