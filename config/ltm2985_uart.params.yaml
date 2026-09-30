@@ -8,3 +8,7 @@ ltm2985_uart_node:
     frame_separator: "\n"
     poll_period_sec: 0.02
     reconnect_period_sec: 2.0
+    # No RX for this long → force close/reopen (covers FTDI URB -32 dead ports).
+    stale_timeout_sec: 15.0
+    # After this many stale recoveries without data, exit so systemd restarts the node.
+    max_stale_recoveries: 3

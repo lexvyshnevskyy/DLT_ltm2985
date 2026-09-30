@@ -16,8 +16,8 @@ Channels sent each cycle:
 
 | Channel | Use in Delatometry |
 |--------:|--------------------|
-| 9 | Control (`ltm_control_channel`) |
-| 3 | Monitor (`ltm_monitor_channel`) |
+| 9 | Control + monitor (`ltm_control_channel` / `ltm_monitor_channel`) |
+| 3 | Spare |
 
 ## Flash (Arduino IDE)
 
